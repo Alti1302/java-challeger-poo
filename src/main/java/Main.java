@@ -33,6 +33,8 @@ public class Main {
         dev.inscreverBotcamp(bootcamp);
         System.out.println("Conteudos inscritos de John:" + dev.getConteudosInscritos());
         dev.progredir();
-        System.out.println("Conteudos inscritos de John:" + dev.getConteudosConcluidos());
+        System.out.println("Conteudos inscritos de John:" + dev.getConteudosInscritos());
+        System.out.println("Conteudos concluídos de John:" + dev.getConteudosConcluidos());
+        System.out.println("XP:" + dev.calcularTotalXp());
     }
 }
