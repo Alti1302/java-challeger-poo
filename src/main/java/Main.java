@@ -19,9 +19,6 @@ public class Main {
         mentoria.setDescricao("Mentoria focada em aprender e aplicar os conceitos de POO.");
         mentoria.setData(LocalDate.of(2022, 12, 31));
 
-//        System.out.println(curso);
-//        System.out.println(mentoria);
-
         Bootcamp bootcamp = new Bootcamp();
         bootcamp.setNome("Bootcamp Java");
         bootcamp.setDescricao("Bootcamp voltado para iniciantes em Java.");
