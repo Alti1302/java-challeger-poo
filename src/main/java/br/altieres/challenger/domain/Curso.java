@@ -1,13 +1,13 @@
 package br.altieres.challenger.domain;
 
-public class Curso extends Conteudo{
+public class Curso extends Conteudo {
 
-   private int cargaHoraria;
+    private int cargaHoraria;
 
 
     @Override
     public double calcularXp() {
-        return XP_PADRAO * cargaHoraria ;
+        return XP_PADRAO * cargaHoraria;
     }
 
     public int getCargaHoraria() {
